@@ -9,19 +9,28 @@ This repository provides the supplementory material for the paper titled **"Scie
 
 
 ## File Descriptions
-BertBasedClassification.py: Implements BERT-based classification models to distinguish between retracted and non-retracted articles based on textual features and calculates their performance metrics.
+### BertBasedClassification.py: 
+implements various BERT-based classification models, including BERT-base, SciBERT, BioBERT, RoBERTa, and DeBERTa, to distinguish between retracted and non-retracted articles based on textual features and calculates their performance metrics.
 
-CertainityMeasurement.py: Contains functionality for measuring certainty levels in scientific reporting, assessing individual sentences, and aggregating scores across relevant sections.
 
-ReadabilityMeasurement.py: Calculates readability scores for scientific articles using various metrics, providing insights into the clarity and accessibility of the text.
+###  CertainityMeasurement.py: 
+Contains functionality for measuring certainty levels in scientific reporting, assessing individual sentences, and aggregating scores across relevant sections.
 
-ConventionalModelClassification_Ranking.py: Applies conventional machine learning models to classify articles, comparing performance based on accuracy, precision, recall, and F1 score.
+### ReadabilityMeasurement.py: 
+Calculates readability scores for scientific articles using various metrics, providing insights into the clarity and accessibility of the text.
 
-ImplicitDependencies_1.py: Identifies implicit dependencies between citing and cited retracted articles, highlighting similarities in methodological protocols.
+### ConventionalModelClassification_Ranking.py: 
+Applies various conventional machine learning models, including Logistic Regression, Random Forest, Decision Tree, XGBoost, Gradient Boosting, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Gaussian Naive Bayes, to classify articles, comparing performance based on accuracy, precision, recall, and F1 score.
 
-ImplicitDependencies_2.py: Further investigates implicit dependencies using different methodologies and comparison approaches.
 
-Retracted_NonRetracted Articles.csv: A dataset containing information on retracted and non-retracted articles, including relevant sections (Abstract, Methodology, Results, Conclusion), readability scores, certainty levels, and labels.
+### ImplicitDependencies_1.py: 
+Identifies implicit dependencies between citing and cited retracted articles, highlighting similarities in methodological protocols.
+
+### ImplicitDependencies_2.py: 
+Further investigates implicit dependencies at individual experimental protocol.
+
+### Retracted_NonRetracted Articles.csv: 
+A dataset containing information on retracted and non-retracted articles, including relevant sections (Abstract, Methodology, Results, Conclusion), readability scores, certainty levels, and labels.
 
 
 ## Requirements
