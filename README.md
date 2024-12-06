@@ -56,4 +56,3 @@ cd Scientific-Accountability
 ```
 
 
-https://github.com/SalientR/Scientific-Accountability/edit/main/README.md
